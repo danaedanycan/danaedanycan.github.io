@@ -12,10 +12,20 @@ input, button, textarea, select { font: inherit }
 /* ================= ENDS ================ */
 
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+@media (min-width: 768px) {
+     body { padding: 4% 20% } 
+     h1{
+         color: blue;
+     }
+    }
 
 /* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+@media (max-width: 767px) {
+     body { padding: 12% 8% } 
+     h1{
+         color: red;
+     }
+    }
 
 
 /* Web page */
@@ -63,5 +73,6 @@ p {
    line-height: 1.6;
    margin-top: 0;
    margin-bottom: 20px;
+   font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1600 - 320))); 
 }
 
