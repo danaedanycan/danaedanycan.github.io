@@ -2787,6 +2787,16 @@ a:link, a:visited,a:hover, a:focus, a:active {
     color: white;
     border-bottom: solid 2px #000;
 } 
+.link1, .link2
+{
+    padding: auto;
+}
+footer
+{
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
