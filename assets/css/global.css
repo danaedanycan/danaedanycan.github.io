@@ -16,62 +16,185 @@ input, button, textarea, select { font: inherit }
 /* Mobiles */
 @media (max-width: 767px) { body { padding: auto} }
 
-body { 
-    text-align: center;
-    font-family: sans-serif;
-}
-
-h1 {
-    font-size: 78px;
-    font-weight: normal;
-    letter-spacing: -2px;
-    margin-bottom: 12px;
-    line-height: 1.2;
-}
-
-h2 {
-    font-size: 42px;
-    letter-spacing: 6px;
-    line-height: 1.2;
-}
-
-h3 {
-    font-size: 24px;
-
-    margin-bottom: 30px;
-    line-height: 1.2;
-    text-transform: uppercase;
-}
-
-p {
-    font-size: 20px;
-    margin-bottom: 50px;
-}
-#cours1, #cours2, #cours3, #cours4{
-
+.herolog{
     display: flex;
-    justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
-
+    background-color: #2E714A;
+    justify-content: center;
+}
+.infos{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    background-color:#4F996D ;
+    border-top: double #5f1c1c 2px;
+    border-bottom: double #5f1c1c 2px;
 
 }
-#choix{
-    margin-top:50px;
-    margin-bottom: 10px;
+.infos h3{
+    color:#1a422b ;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+    
 }
-a:link, a:visited {
+.infos h2{
+    color: #FEFEF1;
+    font-family: 'Taviraj', serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.container-btn{
+width:100%;
+padding-top: 19px;
+}
+.container-btn a:link,.container-btn a:visited{
+    color: #FEFEF1; 
+    font-style: normal;
+    font-family: 'Taviraj', serif;
     text-decoration: none;
-    padding-bottom: 2px;
-    margin: 15px 15px 15px 15px;
-    color: #000;
-    border-bottom: solid 2px gray;
-} 
+    font-weight: 100;
+}
+.container-btn a:hover{
+    color: #5f1c1c; 
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+.contactbtn,.accountbtn{
+    padding :10px;
+    margin: 19px;
+    border: ridge #1a422b 1px ;
+    background-color: #6a9e7f ;
+    border-radius: 4px;
+}
+
+#logo{
    
-a:hover, a:focus, a:active {
-    text-decoration: none; 
-    padding-bottom: 2px;
-    margin: 15px 15px 15px 15px;
-    color: darkred;
-border-bottom: solid 2px darkred;
+    max-width: 38%;
+}
+main{
+    background-color:#FEFEF1 ;
+   
+}
+.port{
+    display:flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+    width: 92%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.ande{
+    display: flex;
+   
+  
+  
+
+}
+.hero-text-container{
+    
+   padding: auto;
+    margin: auto;
+    min-width: 100%;
+    justify-content: center;
+   
+}
+#chang{
+    border-radius: 30px;
+    
+    border: solid #2E714A 1px;
+    
+
+}
+.btnl{
+    
+width: 6%;
+margin: auto;
+padding: auto;
+z-index: 1;
+
+}
+main h3{
+    text-align: center;
+    color: #1a422b;
+    font-family: 'Taviraj', serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+main p{
+    text-align: center;
+    color: #4F996D;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    
+
+}
+button{
+    background-color: transparent;
+}
+button:hover{
+    width: 150%;
+}
+#name{
+    text-align: center;
+    color: #1a422b;
+    font-family: 'Taviraj', serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+#txt{
+    font-size: 15px;
+    font-weight: 400;
+}
+.truc{
+    margin: auto;
+}
+.cont{
+    background-color: #4F996D;
+    border-top: double #5f1c1c 2px;
+    border-bottom: double #5f1c1c 2px;
+    text-align: center;
+    margin: auto;
+    padding: 8px;
+}
+.conbtn{
+    border: ridge #1a422b 1px ;
+    background-color: #6a9e7f ;
+    border-radius: 4px;
+    margin : 7px;
+    padding: 3px;
+}
+.fin{
+    background-color: #2E714A;
+    text-align: center;
+    padding: 4px;
+    
+}
+footer a:link, footer a:visited{
+    color: #FEFEF1; 
+    font-style: normal;
+    font-family: 'Taviraj', serif;
+    text-decoration: none;
+    font-weight: 100;
+}
+footer a:hover{
+    color: #5f1c1c; 
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+footer{
+    margin: auto;
+    padding: auto;
+    height: auto;
+    background-color: #2E714A;
+}
+.social{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-content: center;
 }
