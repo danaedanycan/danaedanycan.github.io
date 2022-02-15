@@ -160,12 +160,17 @@ button:hover{
     text-align: center;
     margin: auto;
     padding: 8px;
+   padding: auto;
+    color: #FEFEF1;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
 }
 .conbtn{
     border: ridge #1a422b 1px ;
     background-color: #6a9e7f ;
     border-radius: 4px;
-    margin : 7px;
+    margin : auto;
+
     padding: 3px;
 }
 .fin{
@@ -193,8 +198,16 @@ footer{
     background-color: #2E714A;
 }
 .social{
+    
     display: flex;
     padding: 5px;
-    justify-content: center;
+    margin :auto;
+    width: 70%;
+    justify-content: space-around;
     align-content: center;
+}
+.imglink1{
+    max-width:60px;
+    margin: auto;
+  
 }
