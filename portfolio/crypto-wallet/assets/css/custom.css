@@ -176,4 +176,6 @@ section > p.standfirst {
 .icon1{
     margin: 15px;
 }
-
+.testfin{
+    display: flex;
+}
