@@ -9,7 +9,9 @@
     <!-- Stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Taviraj:wght@100;200;300;400;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/global.css">  
    
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">    
@@ -31,23 +33,74 @@
 </head>
 
 <body id="top-of-page">
-    <div>
-    <header class="hero-block text-center-desktop text-center-mobile">
-        <section class="herolog">
-            <img src="assets/img/1.png" id="logo">
-        </section>
-        <section class="infos">
-            <h2>Web site production</h2>
-            <h3>To share a part of you with the World.</h3>
-            <div class="container-btn">
-                <a href="#" class="contactbtn"><i class="fas fa-shopping-cart"></i><span>Learn more</span></a>
-                <a href="#" class="accountbtn"><i class="fas fa-arrow-right"></i><span>Create Account</span></a>
-            </div>
-        </section>
+    <div class="bienvenue">
+        <div id="txtp">
+            <img id="imd" src="assets/img/danae.png">
+            <h2 id="title" >Welcome on my Homepage !!</h2>
+            <p>A Place to build what you want !</p>
+        </div>
+        <div id="test">
+            <img id="imgp" src="assets/img/front.jpg">
+        </div>
 
-        
+    </div> 
+
     </header>
-    <main>
-        <h3>Please Come back later i am working on it !</h3>
+    <main id =" portfolio">
+        <section class="bande">
+                    <div class="btni">
+                       <a href="portfolio/van-gogh/index.html" id="ch" ><img src="assets/img/vang.png" onmouseover="rightfun()" id="chang"></a>
+                    </div>
+            <script src="assets/js/move.js"></script>   
+
+        </section>
     </main>
+    <footer>
+        <div class="cont">
+         <h4>Excellence in digital creation</h4>
+         
+         <div class="social">
+ 
+             <div class ="imglink1">
+                     <a href="https://github.com/danaedanycan">
+                         <img src="assets/img/github.png">
+                     </a>
+             </div>
+             <div class ="imglink1">
+                 <a href="https://instagram.com/danae_a_dublin?utm_medium=copy_link" >
+                     <img src="assets/img/R.png">
+                 </a>
+             </div>
+             
+             <div class ="imglink1">
+                 <a href="https://www.linkedin.com/in/dana%C3%A9-danycan-7179361b0/"> 
+                     <img src="assets/img/Linkedin.png">
+                 </a>
+             </div>
+ 
+        </div>
+        <div >
+            <p id="link1"><a href="#top-of-page">Portfolio</a></p> 
+    
+            <p id="link2"><a href="contact/index.html">Contact</a></p>
+        </div>
+        
+ 
+     </footer> 
+     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+ <script>
+ window.cookieconsent.initialise({
+   "palette": {
+     "popup": {
+       "background": "#000"
+     },
+     "button": {
+       "background": "#f1d600"
+     }
+   },
+   "content": {
+     "href": "https://danaedanycan.github.io/Privacy.html"
+   }
+ });
+ </script>
 </body>
