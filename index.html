@@ -49,10 +49,41 @@
     <main id =" portfolio">
         <section class="bande">
                     <div class="btni">
-                       <a href="portfolio/van-gogh/index.html" id="ch" ><img src="assets/img/vang.png" onmouseover="rightfun()" id="chang"></a>
+                       <a href="portfolio/van-gogh/index.html" id="ch" ><img src="assets/img/vang.png" id="chang"></a>
                     </div>
-            <script src="assets/js/move.js"></script>   
-
+            
+            <SCRIPT language="JavaScript" type="text/javascript">
+ 
+                // Un tableau qui va contenir toutes tes images.
+                var images = new Array();
+                images.push("assets/img/vang.png");
+                images.push("assets/img/fashion.png");
+                images.push("assets/img/smoothies.png");
+                images.push("assets/img/crypto.png");
+                 var lien =new Array();
+                lien.push("portfolio/van-gogh/index.html");
+                lien.push("portfolio/fashion/index.html");    
+                lien.push("portfolio/smoothies/index.html");
+                lien.push("portfolio/crypto-wallet/index.html");  
+                var pointeur =0                 
+                function ChangerImage(){
+                document.getElementById("chang").src = images[pointeur];
+                 document.getElementById("ch").href=lien[pointeur];
+                if(pointeur < images.length - 1){
+                pointeur++;
+                }
+                else{
+                pointeur = 0;
+                }
+                 
+                setTimeout("ChangerImage()", 2000)
+                }
+                 
+                // Charge la fonction
+                window.onload = function(){
+                ChangerImage();
+                }
+                </SCRIPT>
         </section>
     </main>
     <footer>
