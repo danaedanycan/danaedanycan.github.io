@@ -136,9 +136,7 @@
 /* Global font */
 body {
      font-family:'Outfit',serif  }
-header.hero-block {
-     
-     }
+
 .theme-one { color: var(--white-000) }
 .theme-one li {color :var(--white-000)}
 .theme-one { background-color: var(--ontrend-700) }
@@ -179,3 +177,12 @@ section > p.standfirst {
 .testfin{
     display: flex;
 }
+.theme-one { background-color: var(--green-600) }
+.theme-one .col-3 h3 { color: var(--white-000) }
+.theme-six { background-color: var(--green-800) }
+.theme-six .col-1 h2 { color: var(--white-000) }
+.theme-six .col-1 h3 { color: var(--white-000) }
+.theme-six .col-3 h3 { color: var(--white-000) }
+.theme-six .col-3 p { color: var(--white-000) }
+.theme-six .col-3 li { color: var(--white-000) }
+.theme-six .col-3 figure.icon { color: var(--white-000) }

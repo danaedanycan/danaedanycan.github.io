@@ -1,8 +1,19 @@
 section.section-style-1.theme-light { background-color: var(--red-400) }
-section.section-style-1.theme-light { background-color: var(--red-300) }
+
 section.section-style-1.theme-light h2 { color: var(--white-000) }
 section.section-style-1.theme-light p { color: var(--white-000) } 
 section.section-style-1.theme-light li { color: var(--white-000) } 
 section.section-style-2.theme-light { background-color: var(--white-000) }
 section.section-style-3.theme-light { background-color: var(--red-100) }
+
+.theme-one { background-color: var(--green-600) }
+.theme-one .col-4 h3 { color: var(--white-000) }
+.theme-six { background-color: var(--red-400) }
+.theme-six .col-1 h2 { color: var(--white-000) }
+.theme-six .col-1 h3 { color: var(--white-000) }
+.theme-six .col-4 h3 { color: var(--white-000) }
+.theme-six .col-4 p { color: var(--white-000) }
+.theme-six .col-4 li { color: var(--white-000) }
+.theme-six .col-4 figure.icon { color: var(--white-000) }
+
 
